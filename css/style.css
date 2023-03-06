@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+}
+body{
+  background: -webkit-gradient(linear, left bottom , left top, from(black), to(black)) fixed
+}
+
+.center{
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+section.box{
+  margin-top: 50px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo{
+  width: 100%;
+  max-width: 135px;
+}
+
+.logo img{
+  width: 100%;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.logo-img:hover{
+  border-color: black;
+}
+
+.logo-img{
+  border: 1px solid white;
+  border-radius: 50%;
+  vertical-align: middle;
+  padding: 3px;
+  transition: 0.3s;
+}
+
+.desc{
+    text-align: center;
+    color: white;
+    margin: 10px 0;  
+}
+
+.cesc h2{
+  font-weight: normal;
+
+}
+.desc p{
+  color: #bbb;
+}
+
+.link{
+  text-decoration: none;
+  text-align: center;
+}
+
+.link{
+  width: 100%;
+}
+
+.link a{
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.link .link-a:hover{
+    background-color: white;
+    color: black;
+}
+
+.link .link-a{
+  position: relative;
+  border-radius: 7px;
+  border: 2px solid white;
+  padding: 10px;
+  margin: 17px 0;
+}
+
+.link .link-a i{
+  position: absolute;
+  left: 20px;
+  line-height: 1;
+  font-size: 23px;
+  transition: 0.5s;
+}
+
+.link .link-a h3{
+  font-weight: normal;
+}
+
+.link1{
+  margin-top: 10px;
+}
+
+.link1 a{
+  color: #dfdfdf;
+  font-size: 25px;
+  margin: 0 5px;
+}
+
+.link1 i{
+  transition: 0.3s;
+}
+
+.link1 i:hover{
+  transform: scale(1.3);
+}
